@@ -10,11 +10,11 @@ flowchart TD
     E --> C
     F --> G[End]
 
-Start: The game starts.
-Generate Random Number: The computer generates a random number.
+Start: The game begins.
+Generate Random Number: The program generates a random number.
 Get User Guess: The user enters their guess.
 Check Guess:
-If the guess is not correct, show "Try Again" and prompt for another guess.
-If the guess is correct, show "Correct".
-End: The game ends after the correct guess.
+If the guess is not correct, show "Try Again" and go back to Get User Guess.
+If the guess is correct, show "Correct" and end the game.
+End: The game ends.
 
