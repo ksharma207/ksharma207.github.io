@@ -7,9 +7,9 @@ flowchart TD
     GetUserGuess --> ValidateInput{Is Input Valid?}
     ValidateInput -- No --> ShowError[Show Error: Invalid Input] --> GetUserGuess
     ValidateInput -- Yes --> CompareGuess{Is Guess Correct?}
-    CompareGuess -- Too Low --> ShowLow[Show "Too Low"] --> GetUserGuess
-    CompareGuess -- Too High --> ShowHigh[Show "Too High"] --> GetUserGuess
-    CompareGuess -- Correct --> ShowCorrect[Show "Correct Guess!"] --> End([End])
+    CompareGuess -- Too Low --> ShowLow[Show 'Too Low'] --> GetUserGuess
+    CompareGuess -- Too High --> ShowHigh[Show 'Too High'] --> GetUserGuess
+    CompareGuess -- Correct --> ShowCorrect[Show 'Correct Guess!'] --> End([End])
 
 Start: The program begins.
 Generate Random Number: The computer generates a random number within a specified range.
